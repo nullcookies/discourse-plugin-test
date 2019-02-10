@@ -1,0 +1,18 @@
+{{#if helloVisible}}
+
+  <div class='buttons'>
+    {{d-button label="hello.hide" action="hideHello" icon="eye"}}
+  </div>
+
+  <div class='hello'>
+    <img src="https://eviltrout.com/images/tentacle.gif">
+  </div>
+
+  {{else}}
+  <div class='buttons'>
+    {{d-button label="hello.show" action="showHello" icon="eye"}}
+  </div>
+
+{{/if}}
+
+
